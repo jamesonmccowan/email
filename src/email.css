@@ -1,0 +1,15 @@
+.email {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px;
+    background: #fff;
+    min-width: 5cm;
+}
+
+.emailItem {
+    display: inline-block;
+}
+
+.email input {
+    border: 0px solid transparent;
+}
