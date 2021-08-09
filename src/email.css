@@ -1,49 +1,44 @@
 .email {
   display: inline-block;
-  border-radius: 5px;
-  padding: 5px;
+  border-radius: 10px;
+  padding: 15px 10px;
   background: #fff;
+  width: 33%;
+  text-align: left;
 }
 
 .emailItem {
   display: inline-block;
-  padding-left: 0.5cm;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.emailItem:hover {
+    background: #EEE;
+}
+.emailItem.emailInvalid:hover {
+    background: #FAA;
 }
 
 .emailItem button {
   position: relative;
   float: right;
+  visibility: hidden;
+  margin-left: 5px;
+}
+
+.emailItem:hover button {
+  visibility: visible;
 }
 
 .emailInvalid {
   background: #FCC;
 }
 
-.emailPlus {
-  position: relative;
-  float: left;
-}
-
 .email input {
   border: 0px solid transparent;
 }
 
-.email .suggestions {
-  background: #FFF;
-  position: absolute;
-  margin-left: -200px;
-  margin-top: 40px;
-  display: inline-block;
-  text-align: left;
-  padding: 0px;
-}
-
-.email .suggestions li {
-  display: block;
-  text-align: left;
-  margin: 0px;
-}
-.email .suggestions li:hover {
-  background: #00F;
-  color: #FFF;
+.email .placeholder {
+  color: #BBB;
 }

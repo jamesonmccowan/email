@@ -7,7 +7,7 @@ function App() {
   var App = (
     <div className="App">
       <header className="App-header">
-        <div>To: <Email autocomplete={ autocomplete } /></div>
+        <Email autocomplete={ autocomplete } placeholder="Enter recipients..." />
       </header>
     </div>
   );
