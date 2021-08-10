@@ -1,3 +1,17 @@
+# React Email Component
+
+This project is to make an email address input field component in React.
+Features include:
+ * Multiple emails per component
+ * Autosuggestion
+ * Basic email address validation
+
+Component code is in _src/email.js_ and _src/email.css_ files.
+
+Autocomplete emails in the example are supplied from _src/emails.json_, but any array of emails supplied to the autocomplete property will work.
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
